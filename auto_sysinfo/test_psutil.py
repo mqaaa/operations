@@ -8,7 +8,7 @@ import yagmail
 import psutil
 
 EMAIL_USER = "qmeng1128@163.com"
-EMAIL_PASSWORD = "****"
+EMAIL_PASSWORD = "*****"
 RECIPIENTS = ['15735184252@163.com']
 
 
