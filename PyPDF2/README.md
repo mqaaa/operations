@@ -12,7 +12,7 @@ page.extractText()
 #解析文件内容
 reader.getDocumentInfo()
 ```
-#使用PdfFileWriter创建PDF文件
+# 使用PdfFileWriter创建PDF文件
 ```
 import PyPDF2
 reader = PyPDF2.PdfFileReader(open('redbook-5th-edition.pdf','rb'))
@@ -27,7 +27,7 @@ writer.write(output)
 #将内容写入
 output.close()
 ```
-#修改PDF页面
+# 修改PDF页面
 ```
 import PyPDF2
 reader = PyPDF2.PdfFileReader(open('redbook-5th-edition.pdf','rb'))
@@ -40,7 +40,7 @@ output = open('temp.pdf','wb')
 writer.write(output)
 output.close()
 ```
-#添加水印
+# 添加水印
 ```
 import PyPDF2
 reader = PyPDF2.PdfFileReader(open('redbook-5th-edition.pdf','rb'))
@@ -54,7 +54,7 @@ output = open('watermark_test.pdf','wb')
 writer.write(output)
 output.close()
 ```
-#使用PdfFileMerger合并多个单元格
+# 使用PdfFileMerger合并多个单元格
 ```
 from __future__ import print_function
 from PyPDF2 import PdfFileMerger
