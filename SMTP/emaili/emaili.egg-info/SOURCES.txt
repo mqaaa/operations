@@ -1,0 +1,11 @@
+setup.py
+emaili/emaili.py
+emaili/logger.py
+emaili/setup.py
+emaili/storage.py
+emaili.egg-info/PKG-INFO
+emaili.egg-info/SOURCES.txt
+emaili.egg-info/dependency_links.txt
+emaili.egg-info/entry_points.txt
+emaili.egg-info/requires.txt
+emaili.egg-info/top_level.txt
